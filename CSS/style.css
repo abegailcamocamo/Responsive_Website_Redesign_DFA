@@ -68,6 +68,7 @@ body {
     font-weight: 700;
     line-height: normal;
     
+    
 }
 /* End of Navigation Bar */
 
@@ -86,7 +87,33 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
 }
+    /* Requirements-section */
+h1 {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.req-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.req-items {
+    border-radius: 30px;
+    background: rgba(54, 149, 236, 0.40);
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 30px;
+}
+
+
 /* end of section */
+
 /* footer */
 .flex-container{
     background: #3695EC;
@@ -101,7 +128,7 @@ body {
 
 
 .link{
-    text-decoration: none;
+    text-decoration: none !important;
     color: white;
     height: min-content;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
