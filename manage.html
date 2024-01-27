@@ -3,28 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule Page</title>
+    <title>Manage Page</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <style>
-       h6 {
-        font-family: sans-serif;
-       }
-       article {
-        text-align: center;
-        padding: 30px;
-        
-       }
-    </style>
-    
 </head>
 <body>
-    <!-- header  block -->
-    <header class="header">
+     <!-- header  block -->
+     <header class="header">
         <div class="header-container">
             <div class="pppp"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/800px-Flag_of_the_Philippines.svg.png" style="width:155px; height: 76px;" alt=" PH Flag logo"></div>
             <div class="p">REPUBLIC OF THE PHILIPPINES</div>
@@ -33,6 +21,7 @@
         </div> 
     </header>
     <!-- end of header -->
+
     <!-- Navigation Bar -->
     <div class="nav-container">
         <div class="nav-item"><a class="link" href="index.html">Home</a></div>
@@ -42,36 +31,24 @@
         <div class="nav-item"><a class="link" href="https://dfa-oca.ph/contact-us/" target="_blank">Contact</a></div>
     </div>
     <!--End of Navigation Bar -->
-
-    <!-- section -->
-    <br>
-    <br>
-    <p>Welcome to the DFA Online Passport Appointment System. Review all fields in the online form carefully and provide complete and accurate information.</p>
-
-    <div class="sched-container">
-        <!-- Reminders -->
-        <div class="sched-items">
-            <strong>Reminder: <i class="fa-solid fa-bell"></i></strong>
-            <p>Applicants are advised to use only Google or Yahoo email accounts in securing an appointment to avoid any technical incompatibilities. <u>Email address restrictions and accessibility may vary on your access location, country and/or email servers.</u></p>
+    
+    <!-- Content -->
+    <div class="man-container">
+        <!-- appointment code -->
+        <div class="man-items">
+            <strong>Appointment Code:</strong><br>
+            <input type="text" placeholder="Ex.06762022061300215" class="code"><br><br><br>
+            <strong>Email Address:</strong><br>
+            <input type="text" placeholder="name@domain.com" class="code"><br>
         </div>
-        <!-- Terms and conditions -->
-        <div class="sched-items">
-            <strong>TERMS AND CONDITIONS</strong>
-            <p><em></em>This appointment and scheduling system allocates slots on a first come, first served basis.
-                Users accept the responsibility for supplying, checking, and verifying the accuracy and correctness of the information they provide on this system in connection with their application. Incorrect or inaccurate information supplied may result in forfeiture of passport application.
-                <u>For Sites utilizing the ePayment System</u>, all fees are non-refundable. Fees shall be forfeited for applicants who fail to show up on their confirmed appointment, applicants who cancel their appointment, applicants whose application was rejected due to inconsistency and/or incorrect information, and applicants who present discrepant and/or spurious documents.</p>
+        <!-- navigation section -->
+        <div class="man-items navi">
+            <h1><i class="fa-solid fa-calendar-days"></i> Schedule an Appointment</h1>
+            <h1><i class="fa-solid fa-clock-rotate-left"></i> Manage Existing Appointment</h1>
+            <h1><i class="fa-solid fa-bullhorn"></i> Consular Advisory</h1>
         </div>
     </div>
-       <h6><input type="checkbox" name="" id="">By proceeding with this application, I understand that I am signifying my unequivocal consent to the disclosure, collection, and use of my personal information and the data required under the Philippine Passport Act as amended and its Implementing Rules and Regulations.My consent effectively constitutes a waiver of any and all privacy rights pertaining to the disclosure, collection, and use of my personal information and data under the specific terms and condition of the DFA Online Passport Appointment System Website's Privacy Policy, the Data Privacy Act of 2012 and its Implementing Rules and Regulations, and other pertinent DFA rules, regulations, policies on the matter.</h6>
-    <!-- End of Section -->
-
-    <!-- Button section -->
-    <article>
-        <button type="submit"><i class="fa-solid fa-user"></i>START INDIVIDUAL APPOINTMENT</button>
-        <button type="submit"><i class="fa-solid fa-users"></i>START GROUP APPOINTMENT</button>
-    </article>
-    
-    <!-- End of Button section -->
+    <!-- End fo Content -->
 
     <!-- footer  block -->
     <Footer>
@@ -89,7 +66,8 @@
             </div>
 
         </div>
-        
+    
     </Footer>
+    
 </body>
 </html>
