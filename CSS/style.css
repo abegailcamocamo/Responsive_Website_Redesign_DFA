@@ -69,6 +69,7 @@ body {
     line-height: normal;
     
     
+    
 }
 /* End of Navigation Bar */
 
@@ -88,29 +89,53 @@ body {
     font-weight: 700;
 }
     /* Requirements-section */
-h1 {
-    color: #000;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bolder;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-.req-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 150px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-.req-items {
-    border-radius: 30px;
-    background: rgba(54, 149, 236, 0.40);
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 30px;
-    padding: 10px;
-}
+    h1 {
+        color: #000;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .req-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 150px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .req-items {
+        border-radius: 30px;
+        background: rgba(54, 149, 236, 0.40);
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 30px;
+        padding: 10px;
+    }
+    /* End of Requirements-section */
+
+    /* Schedule-section */
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .sched-container {
+        display: grid;
+        grid-template-columns: auto;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 0;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .sched-items {
+        border-radius: 50px;
+        background: #D9D9D9;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 30px;
+        padding: 50px;
+
+    }
+
+    /* End of Schedule-section */
 
 
 /* end of section */
