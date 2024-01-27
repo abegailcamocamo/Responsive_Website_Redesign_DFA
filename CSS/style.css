@@ -88,6 +88,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
 }
+.linkx {
+    text-decoration: none;
+    color: #2B78E4;
+}
     /* Requirements-section */
     h1 {
         color: #000;
