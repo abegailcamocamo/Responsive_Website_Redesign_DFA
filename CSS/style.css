@@ -196,3 +196,54 @@ body {
 
     /* footer media queries */
    
+    @media screen and (min-width: 480px; ) {
+        .header {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            background: #FFF;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            padding: 0;
+        }
+        .header-container{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .p{
+            color: #000;
+            font-family: 'Josefin Sans', sans-serif;
+            
+        }
+        .pp{
+            color: #000;
+            font-family: 'Josefin Sans', sans-serif;
+            
+        }
+        .ppp{
+            color: #000;
+            font-family: 'Josefin Sans', sans-serif;
+            
+        }
+        .header-container{
+            display: grid;
+            width: 100%;
+            height: auto;
+        }
+        .pppp{
+            grid-row: 1/4;
+        }
+        .nav-item {
+            font-size: auto !important;
+        }
+        .nav-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background: #3695EC;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            color: #FFF;
+            font-family: 'Josefin Sans', sans-serif;
+    }
